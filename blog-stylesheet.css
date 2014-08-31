@@ -1,0 +1,136 @@
+/*Universal Styling*/
+
+* {-webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+    font-family: Helvetica;
+
+      }
+
+.container {
+  background: #F0F1CF;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*HEADER STYLING*/
+.header {
+    background-image: linear-gradient(135deg, #122a3e, #F2C164);
+    background-color: #122a3e;
+    color: #fff;
+    padding: 1em 0;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.header #title {
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .4em;
+    padding-left: .4em;
+}
+
+.header #author{
+    text-transform: lowercase;
+    font-size: .7em;
+    font-weight: 300;
+    font-style: italic;
+    letter-spacing: .12em;
+    padding-left: .12em;
+}
+
+#nav {
+  list-style-type: none;
+  margin: 0;
+}
+
+#nav li {
+  display: inline-block;
+  width: 30%;
+}
+
+#nav a {
+  color: #fff;
+  padding: .4em;
+}
+
+#nav a:hover {
+  background: #DB4442;
+}
+
+/*Page Body Styling*/
+.content {
+  font-size: 1em;
+  font-weight: 300;
+  color: #333;
+  display: inline-block;
+  vertical-align: top;
+  padding: 1em;
+  width: 75%;
+}
+
+.sidebar {
+  border-left: .4em solid #DB4442;
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+  width: 24%;
+  font-size: 1.5em;
+    text-transform: uppercase;
+  font-size: 1em;
+  font-weight: 300;
+  color: #333;
+}
+
+.recent ul {
+  list-style: none;
+  margin-top: .2em;
+}
+
+.social {
+  text-align: center;
+  position: relative;
+  top: .4em;
+  border-top: .4em solid #DB4442;
+}
+
+.social ul {
+
+  list-style: none;
+}
+
+.footer {
+    background-image: linear-gradient(-135deg, #DB4442, #F2C164);
+    background-color: #DB4442;
+    color: #fff;
+    padding: 1em 0;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#contact{
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .4em;
+    padding-left: .4em;
+}
+
+.contact-me {
+  list-style: none;
+  position: relative;
+  top: 1em;
+  text-transform: lowercase;
+  font-size: .7em;
+  font-weight: 300;
+  font-style: italic;
+  letter-spacing: .12em;
+  padding-left: .12em;
+}
+.contact-me li {
+  display: inline-block;
+  width: 30%;
+}

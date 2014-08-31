@@ -13,6 +13,12 @@
 
 a {
   text-decoration: none;
+  color: #fff;
+  padding: .4em;
+}
+
+a:hover {
+  background: #DB4442;
 }
 
 /*HEADER STYLING*/
@@ -52,14 +58,7 @@ a {
   width: 30%;
 }
 
-#nav a {
-  color: #fff;
-  padding: .4em;
-}
 
-#nav a:hover {
-  background: #DB4442;
-}
 
 /*Page Body Styling*/
 .content {
@@ -109,6 +108,8 @@ a {
 }
 
 .social ul li {
+  padding: .4em;
+  border: .2em;
   margin-bottom: .4em;
 }
 

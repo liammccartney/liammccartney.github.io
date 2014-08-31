@@ -73,33 +73,43 @@ a {
 }
 
 .sidebar {
-  border-left: .4em solid #DB4442;
+  /*border: .4em solid #DB4442;*/
+  background: #5E778D;
+  position: relative;
+  left: .68em;
   display: inline-block;
   vertical-align: top;
   text-align: center;
   width: 24%;
   font-size: 1.5em;
-    text-transform: uppercase;
+  text-transform: uppercase;
   font-size: 1em;
   font-weight: 300;
   color: #333;
 }
 
-.recent ul {
-  list-style: none;
-  margin-top: .2em;
-}
-
 .social {
   text-align: center;
+  box-shadow: .4em #888;
   position: relative;
   top: .4em;
-  border-top: .4em solid #DB4442;
+}
+
+.social p {
+    font-weight: 700;
+    letter-spacing: .4em;
+    padding-left: .4em;
 }
 
 .social ul {
-
   list-style: none;
+  position: relative;
+  right: 1.2em;
+  margin-bottom: 1em;
+}
+
+.social ul li {
+  margin-bottom: .4em;
 }
 
 .footer {

@@ -49,7 +49,7 @@ a {
   background: #A2A2A2;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 960px) {
   #side-a {
     display: block;
     width: 100%;

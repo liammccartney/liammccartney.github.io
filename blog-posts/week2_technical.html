@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Liam McCartney's Blog</title>
+    <link type="text/css" rel="stylesheet" href="blog-stylesheet.css">
+  </head>
+
+  <body>
+    <div class="header">
+      <div>
+        <p id="title">A Blog</p>
+        <p id="author">by liam mccartney</p>
+      </div>
+      <ul id="nav">
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="about-me.html">About Me</a></li>
+        <li><a href="../projects/project-index.html">Projects</a></li>
+      </ul>
+    </div>
+
+    <div class="container">
+      <div class="content">
+        <h1>Classes vs Ids</h1>
+        <p>The best analogy that I have found to describe the difference between an ID and a Class is the barcode/serial number analogy. A barcode indicates a type of product, and is the same for all instances of that product. It tells the store's computers what the product is and how much it costs. A serial number is specific and unique to one individual unit of a product.</p>
+        <p>Take, for example, your laptop, when you purchased it the clerk scanned its barcode to find out its price. Then, a year later, when you need to check on the laptop's warranty, you look it up using its serial number because the information you want is specific to your laptop, not that type of laptop.</p>
+        <p>In CSS classes act like barcodes. They can be used on multiple elements at one time. IDs are like serial numbers, they are unique and can only be used once on one element. Elements can have both a class and an id, which allows you to select specific elements of a large class. Classes allow you to style several elements with a single selector in the stylesheet of your webpage. IDs allow you to style a single element no matter where it is within the DOM. Use both of these judicially. Being overly specific isn't always necessary. For example, you don't need to give all your links a class of "link" instead you can select them just using the a selector in CSS. If there are more specific links you need to style you can either select them using a relationship, or give them an ID.</p>
+      </div>
+      <div class="sidebar">
+        <div class="social">
+          <p>Social Media</p>
+          <ul>
+            <li><a href="http://www.facebook.com/liam.a.mccartney">
+              Facebook
+            </a></li>
+            <li><a href="http://www.twitter.com/liammccartney">
+              Twitter
+            </a></li>
+            <li><a href="http://www.github.com/liammccartney">
+              GitHub
+            </a></li>
+            <li><a href="http://www.linkedin.com/pub/liam-mccartney/50/274/774/">
+              LinkedIn
+            </a></li>
+          </ul>
+        </div>
+      </div>
+
+    <div class="footer">
+      <p id="contact">Contact Me</p>
+      <ul class="contact-me">
+        <li>631-680-0165</li>
+        <li>liam.mccartney@gmail.com</li>
+      </ul>
+    </div>
+
+
+  </body>
+</html>

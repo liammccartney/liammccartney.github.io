@@ -1,0 +1,65 @@
+/* include your css here */ #title {
+        display: inline-block;
+        text-align: left;
+        width: 50%;
+        }
+
+      #authors {
+        display: inline-block;
+        text-align: right;
+        width: 49%;
+      }
+
+      header {
+        font-size: 20px;
+        font-weight: bold;
+        background-color: #C0C0C0;
+        font-family: 'Lobster', cursive;
+      }
+
+      section {
+        font-family: Verdana, sans-serif;
+      }
+
+      section h1 {
+        text-align: center;
+        text-decoration: underline;
+      }
+
+      section h2 {
+        font-size: 20px;
+        font-weight: normal;
+      }
+
+      #home {
+        display: inline-block;
+        text-align: left;
+        width: 50%;
+      }
+
+      #twitter {
+        display: inline-block;
+        text-align: right;
+        width: 49%;
+      }
+
+      section img {
+        position: relative;
+        left: 30%;
+      }
+
+      footer {
+        font-size: 20px;
+        font-weight: bold;
+        background-color: #C0C0C0;
+        font-family: 'Lobster', cursive;
+      }
+
+      footer a {
+        color: red;
+        text-decoration: none;
+      }
+
+      footer a:hover {
+        color: cyan;
+      }

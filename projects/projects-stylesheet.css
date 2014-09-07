@@ -23,7 +23,7 @@ a:hover {
 
 /*HEADER STYLING*/
 .header {
-    /*background-image: linear-gradient(135deg, #122a3e, #F2C164);*/
+    background-image: linear-gradient(135deg, #122a3e, #F2C164);
     background-color: #122a3e;
     width: 100%;
     color: #fff;
@@ -40,9 +40,33 @@ a:hover {
     padding-left: .4em;
 }
 
-#cover {
-  width: 50px;
+.header #author{
+     text-transform: lowercase;
+     font-size: .7em;
+     font-weight: 300;
+     font-style: italic;
+     letter-spacing: .12em;
+     padding-left: .12em;
+ }
+
+#nav {
+   list-style-type: none;
+   margin: 0;
+ }
+
+ #nav li {
+   display: inline-block;
+   width: 30%;
+ }
+
+#nav a {
+  color: #fff;
+  padding: .4em;
 }
+
+#nav a:hover {
+  background: #DB4442;
+  }
 
 
 /*Page Body Styling*/
@@ -54,6 +78,18 @@ a:hover {
   vertical-align: top;
   padding: 1em;
   width: 75%;
+}
+
+.content ul {
+  list-style: none;
+}
+.content li {
+  margin-top: .7em;
+}
+
+.content li a {
+  color: #333;
+  font-weight: 200;
 }
 
 .sidebar {

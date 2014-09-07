@@ -11,6 +11,12 @@ html {
   background-color: #F0F1CF;
 }
 
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+
 #author{
   position: absolute;
   width: 100%;
@@ -28,20 +34,19 @@ html {
 
 #cover {
   width: 100%;
+  margin-bottom: 0;
 }
 
-#container {
+#tiles {
   width: 100%;
-  height: 17em;
   text-align: center;
+  padding: .2em;
 }
 
 .card {
-  display: inline-block;
-  width: 33%;
-  height: inherit;
-  vertical-align: top;
-  font-size: 4em;
+  float: left;
+  width: 33.333333333%;
+  font-size: 3.0em;
   text-transform: uppercase;
   text-align: center;
   letter-spacing: .4em;
@@ -64,11 +69,13 @@ html {
 footer {
   background-image: linear-gradient(-135deg, #DB4442, #F2C164);
   background-color: #DB4442;
+  clear: both;
   color: #fff;
   padding: 1em 0;
   font-size: 1.5em;
   text-transform: uppercase;
   text-align: center;
+  margin-top: .5em;
 }
 
 #contact{
@@ -93,10 +100,3 @@ footer {
   display: inline-block;
   width: 49%;
 }
-
-
-/*#122a3e
-#5E778D
-#F0F1CF
-#F2C164
-#DB4442*/

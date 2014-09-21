@@ -23,26 +23,26 @@
             <p>
             `Enumberable#cycle` is a powerful method that can be use in a variety of ways.
             At first glance it operates a lot like `each` but it actually extends beyond that.
-            `cycle` iterates through an array or a hash and passes each element (or key/value pair) to a block of code. If a limit or `break` condition is not supplied, it will cycle for ever.
+            `cycle` iterates through an array or a hash and passes each element (or key/value pair) to a block of code. If a limit or `break` condition is not supplied, it will cycle for ever.</p>
 
             <img src="../imgs/cycle-1.png">
 
-            You can set how many times you would like to cycle through like so:
+            <p>You can set how many times you would like to cycle through like so:</p>
 
             <img src="../imgs/cycle-2.png">
 
-            You another way to exit the cycle is to set a break condition.
+            <p>You another way to exit the cycle is to set a break condition.</p>
 
             <img src="../imgs/cycle-3.png">
 
-            However there’s an even more useful way to use `cycle`.
+            <p>However there’s an even more useful way to use `cycle`.
             When `cycle` does not receive either a limit or a code block, it returns an enumerator of the object it was called on.
-            This can then be manipulated used `next` and `rewind`.
+            This can then be manipulated used `next` and `rewind`.</p>
             <img src="../imgs/cycle-4.png">
             <img src="../imgs/cycle-5.png">
             <img src="../imgs/cycle-6.png">
 
-            If you turn a hash into an enumerator, then `next` will return a two element array of the next key/value pair
+            <p>If you turn a hash into an enumerator, then `next` will return a two element array of the next key/value pair</p>
             <img src="../imgs/cycle-7.png">
           </p>
       </div>

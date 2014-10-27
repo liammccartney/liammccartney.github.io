@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Liam's Blog
+title: Problems in the Tech World
 ---
 ## Problems in the Tech World
 From net neutrality to quantum computing there is a whole host of challenges facing the tech industry today. But before any of these there is the issue of gender diversity within the industry itself. More specifically a problem with misogyny and sexism.

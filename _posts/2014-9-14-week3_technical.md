@@ -1,6 +1,6 @@
 ---
 layout: post
-title: You're up and running!
+title: Javascript: Pros and Cons
 ---
 ## JavaScript: Pros and Cons
 Called ‘the language of the web’ JavaScript is ubiquitous across the internet. And with good reason. JavaScript is a robust language that is simple to learn. It was created for Netscape’s Navigator browser to allow for dynamic front-end development. It was designed to have syntax similar to Java and C++, which made it easy to pick up.

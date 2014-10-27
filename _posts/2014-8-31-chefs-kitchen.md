@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Liam's Blog
+title: DBC: Kitchen vs Table
 ---
 
 ## Kitchen vs Table

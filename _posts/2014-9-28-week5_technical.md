@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Liam's Blog
+title: Using Classes
 ---
 ## Using Classes
 Classes are an extremely useful tool in Ruby’s Object Oriented repertoire. As programs grow in complexity, objects allow the programmer to maintain a level of simplicity.

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Liam's Blog
+title: Stereotype Threats
 ---
 ## Stereotype Threats
 I think that my first interaction with this concept was through Malcolm Gladwell's writing.[He explains it well here](http://gladwell.com/the-art-of-failure/)

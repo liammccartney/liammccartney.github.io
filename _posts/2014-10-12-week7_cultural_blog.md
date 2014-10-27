@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Liam's Blog
+title: Affirmation and Stereotype Threat
 ---
 ## Affirmation and Stereotype Threat
 

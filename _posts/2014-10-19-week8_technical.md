@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Liam's Blog
+title: What is Ruby on Rails?
 ---
 
 ## Ruby on Rails

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Liam's Blog
+title: Dealing with Conflict
 ---
 
 ## Dealing With Conflict

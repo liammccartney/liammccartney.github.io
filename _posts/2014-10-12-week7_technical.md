@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Liam's Blog
+title: SQL vs NoSQL
 ---
 
 ## SQL vs NoSQL

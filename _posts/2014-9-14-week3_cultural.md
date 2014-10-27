@@ -1,6 +1,6 @@
 ---
 layout: post
-title: You're up and running!
+title: How I Think
 ---
 ## How I Think And What To Do About It
 I have to admit, I usually find theories such as Gregorc's Mind Styles, or the Myers Briggs Personalities, to be wanting, as though they are just a few steps removed from astrology. However once I got over my initial doubts about the Gregorc Mind Styles theory, I found the concept compelling and useful. I took the test, and my results were clear: I sit firmly on the abstract end of the perception ability. With an almost even split between Abstract Sequential (AS) and Abstract Random (AR), slightly favoring AR.

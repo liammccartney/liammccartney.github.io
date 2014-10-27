@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Liam's Blog
+title: Pairing and Feedback
 ---
 ## Pairing and Feedback
 I was initially very skeptical of pair programming. I never really enjoyed group work in school, and that was usually with people that I knew well. The idea that I would have to work with people I had never met before on material that I am only just learning was stressful. So I am happy to report that pairing has been nothing by enjoyable so far. Everyone in the program I have met has been absolutely kind and easy to work with, not to mention really bright. I didn’t expect to appreciate pairing as much as I do.

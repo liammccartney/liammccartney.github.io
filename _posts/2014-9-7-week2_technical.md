@@ -1,6 +1,6 @@
 ---
 layout: post
-title: You're up and running!
+title: Classes vs IDs
 ---
 ## Classes vs Ids
 When styling your website using CSS you have two powerful tools at your disposable to select specific HTML elements, Classes and IDs. At first glance it looks like they look like they do the same thing, but in fact they are intended to be used in different ways.

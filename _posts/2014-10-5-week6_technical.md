@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Liam's Blog
+title: Variables and their Scopes
 ---
  ## Variables and Their Scopes
   Take a look at the code below.

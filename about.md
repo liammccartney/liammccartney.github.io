@@ -1,15 +1,19 @@
 ---
 layout: page
-title: About
+title: About Liam McCartney
 permalink: /about/
 ---
 
-Some information about you!
+## A Chronological List of Things I've Wanted to Be
 
-### More Information
-
-A place to include any other types of information that you'd like to include about yourself. 
+- Batman
+- A Paleontologist
+- An Engineer
+- An Author
+- A Screenwriter
+- A Director
+- A Web Developer
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[liam.mccartney@gmail.com](mailto:liam.mccartney@gmail.com)

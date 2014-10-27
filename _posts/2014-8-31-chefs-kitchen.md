@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Kitchen vs Table
+title: Liam's Blog
 ---
 
 ## Kitchen vs Table

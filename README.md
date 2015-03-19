@@ -1,112 +1,101 @@
-# Jekyll Now
+# [Ghost](https://github.com/TryGhost/Ghost) [![Build Status](https://travis-ci.org/TryGhost/Ghost.svg?branch=master)](https://travis-ci.org/TryGhost/Ghost)
 
-**Jekyll** is a static site generator that's perfect for GitHub hosted blogs ([Jekyll Repository](https://github.com/jekyll/jekyll))
+![Ghost Screenshot](https://cloud.githubusercontent.com/assets/120485/4828504/9e832764-5f80-11e4-8ac1-0332bcc67a35.png)
 
-**Jekyll Now** makes it easier to create your Jekyll blog, by eliminating a lot of the up front setup.
+Ghost is a free, open, simple blogging platform that's available to anyone who wants to use it. Lovingly created and maintained by [John O'Nolan](http://twitter.com/JohnONolan) + [Hannah Wolfe](http://twitter.com/ErisDS) + an amazing group of [contributors](https://github.com/TryGhost/Ghost/contributors).
 
-- You don't need to touch the command line
-- You don't need to install/configure ruby, rvm/rbenv, ruby gems :relaxed:
-- You don't need to install runtime dependancies like markdown processors, Pygments, etc
-- If you're on Windows, this will make setting up Jekyll a lot easier
-- It's easy to try out, you can just delete your forked repository if you don't like it
+Visit the project's website at <http://ghost.org> &bull; docs on <http://support.ghost.org>.
 
-In a few minutes you'll be set up with a minimal, responsive blog like the one below giving you more time to spend on writing epic blog posts!
 
-![Jekyll Now Theme Screenshot](/images/jekyll-now-theme-screenshot.jpg "Jekyll Now Theme Screenshot")
+## Getting Involved
 
-## Quick Start
+Want to report a bug, request a feature, contribute, or translate Ghost? Check out our in-depth guide to [Contributing to Ghost](https://github.com/TryGhost/Ghost/blob/master/CONTRIBUTING.md). We need all the help we can get! You can also join in with our [community](https://github.com/TryGhost/Ghost#community) to keep up-to-date and meet other Ghosters.
 
-### Step 1) Fork Jekyll Now to your User Repository
 
-Fork this repo, then rename the repository to yourgithubusername.github.io.
+## Getting Started
 
-Your Jekyll blog will often be viewable immediately at <http://yourgithubusername.github.io> (if it's not, you can often force it to build by completing step 2)
+There are a few different ways to install Ghost, take care to use the method which best suits your needs.
 
-![Step 1](/images/step1.gif "Step 1")
+**Please note** - the downloadable zip files we provide on [Ghost.org](http://ghost.org/download), the [GitHub releases page](https://github.com/TryGhost/Ghost/releases), and via npm are pre-built packages designed for getting setup quickly. Cloning from the git repository requires you to install several dependencies and build the assets yourself. 
 
-### Step 2) Customize and view your site
+### Compatibility
 
-Enter your site name, description, avatar and many other options by editing the _config.yml file. You can easily turn on Google Analytics tracking, Disqus commenting and social icons here too.
+Ghost is fully compatible with **Node v0.10.x**, 0.10.36 is the recommended version of Node for running Ghost in production.
 
-Making a change to _config.yml (or any file in your repository) will force GitHub Pages to rebuild your site with jekyll. Your rebuilt site will be viewable a few seconds later at <http://yourgithubusername.github.io> - if not, give it ten minutes as GitHub suggests and it'll appear soon
+Ghost is also compatible with **Node v0.12** and **io.js-v1.2**. Please note that these versions are more likely to run into installation problems, please use the [support forum](https://ghost.org/forum/installation/) for help with install issues.
 
-> There are 3 different ways that you can make changes to your blog's files:
+Ghost may also be compatible with other io.js versions, providing binaries are available for sqlite3, and for node-sass if you are building Ghost from source rather than using a pre-built zip file.
 
-> 1. Edit files within your new username.github.io repository in the browser at GitHub.com (shown below).
-> 2. Use a third party GitHub content editor, like [Prose by Development Seed](http://prose.io). It's optimized for use with Jekyll making markdown editing, writing drafts, and uploading images really easy.
-> 3. Clone down your repository and make updates locally, then push them to your GitHub repository.
 
-![_config.yml](/images/config.png "_config.yml")
-  
-### Step 3) Publish your first blog post
+### Install from zip (fastest & best for bloggers)
 
-Edit `/_posts/2014-3-3-Hello-World.md` to publish your first blog post. This [Markdown Cheatsheet](http://www.jekyllnow.com/Markdown-Style-Guide/) might come in handy.
+If you just want to get a Ghost blog running in the fastest time possible, this method is for you.
 
-![First Post](/images/first-post.png "First Post")
+For detailed instructions on various platforms, visit the [Ghost Installation Guide](http://support.ghost.org/installation/). If you get stuck, help is available on [our support site](http://support.ghost.org/).
 
-> You can add additional posts in the browser on GitHub.com too! Just hit the + icon in `/_posts/` to create new content. Just make sure to include the [front-matter](http://jekyllrb.com/docs/frontmatter/) block at the top of each new blog post and make sure the post's filename is in this format: year-month-day-title.md
+1. Install [Node.js](http://nodejs.org) - See [compatibility](https://github.com/TryGhost/Ghost#compatibility) section for details of supported versions
+1. Download the latest Ghost package from [Ghost.org](http://ghost.org/download). 
+1. Create a new directory where you would like to run the code, and un-zip the package to that location.
+1. Fire up a Terminal, the Node Command Prompt or shell and change directory to the root of the Ghost application (where config.example.js and index.js are)
+1. run `npm install --production` to install the node dependencies. If you see `error Error: ENOENT` on this step, make sure you are in the project directory and try again.
+1. To start ghost, run `npm start`
+1. Visit `http://localhost:2368/` in your web browser or go to `http://localhost:2368/ghost` to log in
 
-## Local Development
+Check out the [Documentation](http://support.ghost.org/) for more detailed instructions, or get in touch via the [forum](http://ghost.org/forum) if you get stuck.
 
-1. Install Jekyll and plug-ins in one fell swoop. `gem install github-pages` This mirrors the plug-ins used by GitHub Pages on your local machine including Jekyll, Sass, Gemoji, etc.
-2. Clone down your fork `git clone git@github.com:yourusername/yourusername.github.io.git`
-3. Serve the site and watch for markup/sass changes `jekyll serve`
-4. View your website at http://0.0.0.0:4000
-5. Commit any changes and push everything to the master branch of your GitHub user repository. GitHub Pages will then rebuild and serve your website.
 
-## Moar!
+### Install from git
 
-I've created a more detailed walkthrough, [**Build A Blog With Jekyll And GitHub Pages**](http://www.smashingmagazine.com/2014/08/01/build-blog-jekyll-github-pages/) over at the Smashing Magazine website. Check it out if you'd like a more detailed walkthrough and some background on Jekyll. :metal:
+If you're a developer or someone comfortable getting up and running from a `git clone`, this method is for you.
 
-It covers:
+If you clone the GitHub repository, you will need to build a number of assets using grunt.
 
-- A more detailed walkthrough of setting up your Jekyll blog
-- Common issues that you might encounter while using Jekyll
-- Importing from Wordpress, using your own domain name, and blogging in your favorite editor
-- Theming in Jekyll, with Liquid templating examples
-- A quick look at Jekyll 2.0’s new features, including Sass/Coffeescript support and Collections
+Please do **NOT** use the master branch of Ghost in production. If you are using git to deploy to production, please use the latest [release](https://github.com/TryGhost/Ghost/releases) or the [stable](https://github.com/TryGhost/Ghost/tree/stable) branch which contains the latest release.
 
-## Jekyll Now Features
+Full instructions & troubleshooting tips can be found in the [Contributing Guide](https://github.com/TryGhost/Ghost/blob/master/CONTRIBUTING.md#working-on-ghost-core).
 
-✓ Command-line free _fork-first workflow_, using GitHub.com to create, customize and post to your blog  
-✓ Fully responsive and mobile optimized base theme (**[Theme Demo](http://jekyllnow.com)**)  
-✓ Sass/Coffeescript support using Jekyll 2.0  
-✓ Free hosting on your GitHub Pages user site  
-✓ Markdown blogging  
-✓ Syntax highlighting  
-✓ Disqus commenting  
-✓ Google Analytics integration  
-✓ SVG social icons for your footer  
-✓ 3 http requests, including your avatar  
-✓ Emoji in blog posts! :sparkling_heart: :sparkling_heart: :sparkling_heart:  
+#### Quickstart:
 
-✘ No installing dependancies  
-✘ No need to set up local development  
-✘ No configuring plugins  
-✘ No need to spend time on theming  
-✘ More time to code other things ... wait ✓!  
+1. Install node (see [compatibility](https://github.com/TryGhost/Ghost#compatibility) section for details of supported versions)
+1. `npm install -g grunt-cli`
+1. `npm install`
+1. `grunt init` (and `grunt prod` if you want to run Ghost in production mode)
+1. `npm start`
 
-## Questions?
+Check out the [Documentation](http://support.ghost.org/) for more detailed instructions, or get in touch via the [forum](http://ghost.org/forum) if you get stuck.
 
-[Open an Issue](https://github.com/barryclark/jekyll-now/issues/new) and let's chat!
 
-## Other forkable themes
+### Install from npm
 
-You can use the [Quick Start](https://github.com/barryclark/jekyll-now#quick-start) workflow with other themes that are set up to be forked too! Here are some of my favorites:
+If you want to build Ghost into a larger node app, or are familiar with using `npm` packages, then this method might be for you.
 
-- [Hyde](https://github.com/poole/hyde) by MDO
-- [Lanyon](https://github.com/poole/lanyon) by MDO
-- [mojombo.github.io](https://github.com/mojombo/mojombo.github.io) by Tom Preston-Werner
-- [Left](https://github.com/holman/left) by Zach Holman
-- [Minimal Mistakes](https://github.com/mmistakes/minimal-mistakes) by Michael Rose
-- [Skinny Bones](https://github.com/mmistakes/skinny-bones-jekyll) by Michael Rose
+`npm install ghost`
 
-## Credits
+Further setup instructions can be found in the [using Ghost as an npm module](https://github.com/TryGhost/Ghost/wiki/Using-Ghost-as-an-npm-module) wiki entry.
 
-- [Jekyll](https://github.com/jekyll/jekyll) - Thanks to its creators, contributors and maintainers.
-- [SVG icons](https://github.com/neilorangepeel/Free-Social-Icons) - Thanks, Neil Orange Peel. They're beautiful. 
-- [Solarized Light Pygments](https://gist.github.com/edwardhotchkiss/2005058) - Thanks, Edward.
-- [Joel Glovier](http://joelglovier.com/writing/) - Great Jekyll articles. I used Joel's feed.xml in this repository.
-- [David Furnes](https://github.com/dfurnes), [Jon Uy](https://github.com/jonuy), [Luke Patton](https://github.com/lkpttn) - Thanks for the design/code reviews.
-- [Bart Kiers](https://github.com/bkiers), [Florian Simon](https://github.com/vermluh), [Henry Stanley](https://github.com/henryaj), [Hun Jae Lee](https://github.com/hunjaelee), [Javier Cejudo](https://github.com/javiercejudo), [Peter Etelej](https://github.com/etelej) - Thanks for your [fantastic contributions](https://github.com/barryclark/jekyll-now/commits/master) to the project!
 
+### Keeping up-to-date
+
+Upgrade instructions can be found on the [Ghost Support Site](http://support.ghost.org/how-to-upgrade/).
+
+New releases are announced on the [dev blog](http://dev.ghost.org/tag/releases/), which you can subscribe to for notifications of new versions. Each new release is published with highlights and a full changelog, which are also available on the [releases page](https://github.com/TryGhost/Ghost/releases) of GitHub.
+
+
+### Logging in For The First Time
+
+Once you have the Ghost server up and running, you should be able to navigate to `http://localhost:2368/ghost/` from a web browser, where you will be prompted to setup your blog and user account. Once you have entered your desired credentials you will be automatically logged in to the admin area. The setup screen will not be accessible once the process has been completed.
+
+
+## Community
+
+Keep track of Ghost development and Ghost community activity.
+
+* Follow Ghost on [Twitter](http://twitter.com/TryGhost), [Facebook](https://www.facebook.com/ghost) and [Google+](https://plus.google.com/114465948129362706086).
+* Read and subscribe to the [Official Ghost Blog](http://blog.ghost.org) and the [Ghost Development Blog](http://dev.ghost.org).
+* Join in discussions on the [Ghost Forum](http://ghost.org/forum/)
+* Chat with Ghost developers on IRC. We're on `irc.freenode.net`, in the `#Ghost` channel. We have a public meeting every Tuesday at 5:30pm London time.
+
+
+## Copyright & License
+
+Copyright (c) 2013-2015 Ghost Foundation - Released under the [MIT license](LICENSE).

@@ -1,0 +1,17 @@
+<div class="content">
+    <h2>Using Classes</h2>
+    <p>Classes are an extremely useful tool in Ruby’s Object Oriented repertoire. As programs grow in complexity, objects allow the programmer to maintain a level of simplicity. </p>
+    <p>A Class is a blueprint for an object. Defining a class is the way you define how an object will be constructed and what methods will be available to it.</p>
+    <p>Here is a very simple example of a class in Ruby, one that defines a class Dictionary that can accept new words, return an alphabetical list of all its words, check to see if it has a word, and find words it includes.</p>
+    <p><img src=../imgs/dictionary_class.png></p>
+    <p>Pretty simple right? At this point most of these lines of code should be pretty familiar, or at least easily grasped. </p>
+    <p>The new ones are probably <code>class</code>, <code>initialize</code>, attr_accessor`, and the <code>@</code> symbol in the variable <code>@entries</code>.</p>
+    <p><code>class Dictionary</code> opens up a class called Dictionary for editing. Everything between this command and <code>end</code> will define the behavior and methods of an object of class Dictionary.</p>
+    <p><code>initialize</code> is a constructor function. To create a new object of class Dictionary we would use the command <code>Dictionary.new</code>. When we use that, the initialization function is called. In this case what happens is an empty hash called @entries is created within the new object.</p>
+    <p><code>attr_accessor</code> is short hand for creating reading and writing functions for the object. In this case if we had an object called oxford which was of class Dictionary and we used oxford.entries it would return the hash @entries.</p>
+    <p>Enough of this silly @ symbol nonsense. What is it? Defining a variable with an @ preceding its name turns it into an object variable (also called an instance variable). Variables like this are accessible by any method within the object. This simplifies our method writing, because if we were using just the variable name <code>entries</code> that would mean something different to each method, and none of the methods would return what we want them to.</p>
+    <p>Finally each of the methods you see above are called instance methods. They are accessible only be objects of the class Dictionary. So back to our object oxford: if we were to type <code>oxford.add({"llama" => "a domesticated South American camelid"})</code> and then typed <code>oxford.keywords</code> the program would return the word "llama"!</p>
+    <p>This methods act on the object, not the class itself. <code>Dictionary.add</code> would only return an error.</p>
+    <p>I hope that this helps you understand classes and how to use them at least a little bit.</p>
+    <p>Other DBC-ers. If you have any feedback of how to improve this post, please let me know!</p>
+</div>

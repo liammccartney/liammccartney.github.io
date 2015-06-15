@@ -21,6 +21,11 @@ body {
   background-color: #ffd700;
 }
 
+.icon-highlight{
+  color: #ffd700;
+  padding: 10px;
+}
+
 .no-bg{
   background-color: transparent;
 }
@@ -44,4 +49,12 @@ body {
 .dark-highlight{
   background-color: #000;
   color: #fff;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  .signature{
+    position: fixed;
+    bottom:0;
+    right:0;
+  }
 }

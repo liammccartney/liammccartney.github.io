@@ -2,8 +2,12 @@
 'use strict';
 $(document).ready(function(){
   console.log('Welcome');
-  $('span').hover(function(){
-  }).click(function(){
-
+  $('span.highlight.clickable').click(function(){
+    $.ajax({
+      url: this.id + '/' + this.id + '-index.html',
+      datatype: 'html'
+    }).done(function(data){
+      $('.content').html(data)
+    });
   });
 });
